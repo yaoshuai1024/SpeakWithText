@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		312D76371DDB4E1400A8955B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 312D76361DDB4E1400A8955B /* main.m */; };
+		312D763A1DDB4E1400A8955B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 312D76391DDB4E1400A8955B /* AppDelegate.m */; };
+		312D763D1DDB4E1400A8955B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 312D763C1DDB4E1400A8955B /* ViewController.m */; };
+		312D76401DDB4E1400A8955B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312D763E1DDB4E1400A8955B /* Main.storyboard */; };
+		312D76421DDB4E1400A8955B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 312D76411DDB4E1400A8955B /* Assets.xcassets */; };
+		312D76451DDB4E1400A8955B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 312D76431DDB4E1400A8955B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		312D76321DDB4E1400A8955B /* 将文本转换为系统声音播放.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "将文本转换为系统声音播放.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312D76361DDB4E1400A8955B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		312D76381DDB4E1400A8955B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		312D76391DDB4E1400A8955B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		312D763B1DDB4E1400A8955B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		312D763C1DDB4E1400A8955B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		312D763F1DDB4E1400A8955B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		312D76411DDB4E1400A8955B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		312D76441DDB4E1400A8955B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		312D76461DDB4E1400A8955B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		312D762F1DDB4E1400A8955B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		312D76291DDB4E1400A8955B = {
+			isa = PBXGroup;
+			children = (
+				312D76341DDB4E1400A8955B /* 将文本转换为系统声音播放 */,
+				312D76331DDB4E1400A8955B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		312D76331DDB4E1400A8955B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				312D76321DDB4E1400A8955B /* 将文本转换为系统声音播放.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		312D76341DDB4E1400A8955B /* 将文本转换为系统声音播放 */ = {
+			isa = PBXGroup;
+			children = (
+				312D76381DDB4E1400A8955B /* AppDelegate.h */,
+				312D76391DDB4E1400A8955B /* AppDelegate.m */,
+				312D763B1DDB4E1400A8955B /* ViewController.h */,
+				312D763C1DDB4E1400A8955B /* ViewController.m */,
+				312D763E1DDB4E1400A8955B /* Main.storyboard */,
+				312D76411DDB4E1400A8955B /* Assets.xcassets */,
+				312D76431DDB4E1400A8955B /* LaunchScreen.storyboard */,
+				312D76461DDB4E1400A8955B /* Info.plist */,
+				312D76351DDB4E1400A8955B /* Supporting Files */,
+			);
+			path = "将文本转换为系统声音播放";
+			sourceTree = "<group>";
+		};
+		312D76351DDB4E1400A8955B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				312D76361DDB4E1400A8955B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		312D76311DDB4E1400A8955B /* 将文本转换为系统声音播放 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 312D76491DDB4E1400A8955B /* Build configuration list for PBXNativeTarget "将文本转换为系统声音播放" */;
+			buildPhases = (
+				312D762E1DDB4E1400A8955B /* Sources */,
+				312D762F1DDB4E1400A8955B /* Frameworks */,
+				312D76301DDB4E1400A8955B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "将文本转换为系统声音播放";
+			productName = "将文本转换为系统声音播放";
+			productReference = 312D76321DDB4E1400A8955B /* 将文本转换为系统声音播放.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		312D762A1DDB4E1400A8955B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = yss;
+				TargetAttributes = {
+					312D76311DDB4E1400A8955B = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = VCPZ2HFR86;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 312D762D1DDB4E1400A8955B /* Build configuration list for PBXProject "将文本转换为系统声音播放" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 312D76291DDB4E1400A8955B;
+			productRefGroup = 312D76331DDB4E1400A8955B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				312D76311DDB4E1400A8955B /* 将文本转换为系统声音播放 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		312D76301DDB4E1400A8955B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312D76451DDB4E1400A8955B /* LaunchScreen.storyboard in Resources */,
+				312D76421DDB4E1400A8955B /* Assets.xcassets in Resources */,
+				312D76401DDB4E1400A8955B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		312D762E1DDB4E1400A8955B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				312D763D1DDB4E1400A8955B /* ViewController.m in Sources */,
+				312D763A1DDB4E1400A8955B /* AppDelegate.m in Sources */,
+				312D76371DDB4E1400A8955B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		312D763E1DDB4E1400A8955B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				312D763F1DDB4E1400A8955B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		312D76431DDB4E1400A8955B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				312D76441DDB4E1400A8955B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		312D76471DDB4E1400A8955B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		312D76481DDB4E1400A8955B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		312D764A1DDB4E1400A8955B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VCPZ2HFR86;
+				INFOPLIST_FILE = "将文本转换为系统声音播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yss.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		312D764B1DDB4E1400A8955B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VCPZ2HFR86;
+				INFOPLIST_FILE = "将文本转换为系统声音播放/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.yss.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		312D762D1DDB4E1400A8955B /* Build configuration list for PBXProject "将文本转换为系统声音播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312D76471DDB4E1400A8955B /* Debug */,
+				312D76481DDB4E1400A8955B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		312D76491DDB4E1400A8955B /* Build configuration list for PBXNativeTarget "将文本转换为系统声音播放" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				312D764A1DDB4E1400A8955B /* Debug */,
+				312D764B1DDB4E1400A8955B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 312D762A1DDB4E1400A8955B /* Project object */;
+}
